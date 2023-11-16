@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Dias para Navidad</title>
+</head>
+
+<body>
+    <div class="Navidad">
+        <div class="cont">
+            <h1 id="titulo">Faltan para Navidad</h1>
+            <div class="estilo">
+                <div class="campo" id="dias"></div>
+                <div class="campo" id="horas"></div>
+                <div class="campo" id="minutos"></div>
+                <div class="campo" id="segundos"></div><br>
+
+                <div class="titulos">
+                    <span class="di">D</span>
+                    <span class="di">H</span>
+                    <span class="di">M</span>
+                    <span class="di">S</span>
+                </div>
+               
+                <audio src="./sound/sonido.mp3"></audio>
+
+
+
+                <div id="play" onclick="bailar()">play</div>
+                <div id="pause" onclick="nobailar()">pause</div>
+            </div>
+        </div>
+        <div class="contBaile">
+            <div class="papaOff" id="baileOff">
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </div>
+</body>
+
+</html>
